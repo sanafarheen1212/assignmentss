@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+     
+ }
+ body{
+     width:100%;
+     min-height:100vh;
+     
+     background-color: #2b2a2f;
+ }
+ 
+ 
+ 
+ .imagesection img{
+     border-radius:20px;
+     width:200px;
+     height:200px;
+     object-fit:cover;
+ }
+ .table{
+     color:aliceblue;
+     padding-top: 25px;
+     padding-left: 20px;
+     
+     
+     
+ }
+ .personalinfo{
+     color:white;
+     padding-bottom: 20px;
+     font-size: large;
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+     margin-top:14px;
+     border-bottom:1px solid #555;
+     
+     
+ }
+ .personalinfo div{
+ 
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+ }
+ .personalinfo div span{
+     color:azure;
+     letter-spacing: 1px;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .infosection h1{
+     color:#dedce1;
+     font-size: 40px;
+     font-family:helvetica;
+     text-transform:uppercase;
+     display:inline-block;
+     margin-bottom: 5px;
+     position: relative;
+ 
+    
+ }
+ .infosection p{
+     color:white;
+     position: relative;
+     font-size: 18px;
+     font-style: italic;
+     text-align:justify;
+     padding-bottom: 8px5;
+     display:grid;
+     grid-template-columns: 1fr;
+     grid-gap:8px 8px;
+ }
+ .infosection button{
+     padding:8px 18px;
+     border-radius:25px;
+     cursor:pointer;
+     color:black;
+     background-color:white;
+     
+     
+ }
+ .infosection button:hover{
+     color:787cb5;
+     border-color:whitesmoke;
+ }
+ .skillsection{
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap:10px 80px;
+     padding-left: 20px;
+ 
+ }
+ .skillsection .subject{
+     font-size:17px;
+     font-weight:thin;
+     color:bisque;
+     padding-bottom: 10px;
+     text-transform:uppercase;
+     letter-spacing:1px;
+ }
+ .progress_bar{
+     width:100%;
+     height:16px;
+     background-color: #2b2a2f;
+     padding:4px 6px;
+     border-top:1px solid #000 ;
+     border-bottom:1px solid #444;
+     border-radius:15px;
+ }
+ .progress_line{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background-color:orchid;
+     border-radius: 15px;
+     box-shadow: -1px -1px 2px #222222,
+                  1px 1px 2px #111111
+ 
+ }
+ .progress_line::after{
+     position: absolute;
+     content: attr(value);
+     top:-35px;
+     right:0px;
+     transform: translateX(-50%);
+     
+     font-size: 17px;
+     color: white;
+     
+ }
+ .skillsection{
+     grid-template-columns: 1fr;
+     grid-gap:20px;
+ }
+ .hobbies h2{
+     color:white;
+     font-size: 30px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .hobbies{
+     font-size: 20px;
+     display:grid;
+     letter-spacing: 1px;
+     padding-bottom: 30px;
+     color:aquamarine;
+     padding-left: 20px;
+     
+ }
+ .hobbies ol{
+     padding-left: 20px;
+ }
+ 
+ .skillsection h2{
+     color:bisque;
+     font-size: 30px;
+ }
